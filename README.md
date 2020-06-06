@@ -31,3 +31,31 @@
 - Policzenie podstawowych statystyk
 - Narysowanie wykresów funkcji
 ## Etap 6 - Interfejs webowy dla scrapera (Flask)
+    /CeneoScraper11N
+
+           /run.py  
+           /config.py  
+           /app  
+
+                   /__init__.py
+                   /views.py  
+                   /models.py
+                   /forms.py
+                   /scraper.py
+                   /analizer.py  
+                   /static/  
+
+                           /main.css
+                           /figures_png
+
+                   /templates/  
+
+                           /layout.html  
+                           /extract.html
+                           /about.html
+
+                   /opinions_json
+               /requirements.txt  
+               /.venv
+
+
